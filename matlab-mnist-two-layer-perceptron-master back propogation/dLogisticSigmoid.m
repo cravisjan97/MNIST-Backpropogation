@@ -8,5 +8,6 @@ function y = dLogisticSigmoid(x)
 % y     : Output vector where the derivative of the logistic sigmoid was
 % applied element by element.
 %
-    y = logisticSigmoid(x).*(1 - logisticSigmoid(x));
+    y = logisticSigmoid(x).*(1 - logisticSigmoid(x));%y=d(1/1+exp(-x))/dx
+                                                        
 end
