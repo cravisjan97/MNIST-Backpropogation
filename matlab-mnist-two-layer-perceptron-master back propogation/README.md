@@ -2,7 +2,7 @@
 Classification of handwritten digits is implemented through MultiLayer Perceptrons using Back Propagation Algorithm.
 
 List of Functions Used:
-1.applyStochasticSquaredErrorTwoLayerPerceptronMNIST.m - Train the two-layer perceptron using the MNIST dataset and evaluate its 									performance.
+<br/>1.applyStochasticSquaredErrorTwoLayerPerceptronMNIST.m - Train the two-layer perceptron using the MNIST dataset and evaluate its 									performance.
 <br/>2.dLogisticSigmoid.m - finds the derivative of sigmoid function
 <br/>3.loadMNISTImages.m - loads the MNIST Images from a given filename
 <br/>4.loadMNISTLabels.m - loads the MNIST Labels from a given filename
