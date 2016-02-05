@@ -3,13 +3,13 @@ function [] = applyStochasticSquaredErrorTwoLayerPerceptronMNIST()
 %perceptron using the MNIST dataset and evaluate its performance.
 
     % Load MNIST.
-    inputValues = loadMNISTImages('train-images.idx3-ubyte');
-    labels = loadMNISTLabels('train-labels.idx1-ubyte');
+    inputValues = loadMNISTImages('train-images.idx3-ubyte');%loads the training images into inputValues
+    labels = loadMNISTLabels('train-labels.idx1-ubyte');%loads the training labels into labels
     
     % Transform the labels to correct target values.
-    targetValues = 0.*ones(10, size(labels, 1));
+    targetValues = 0.*ones(10, size(labels, 1));%targetValues is a 10 x 1 matrix
     for n = 1: size(labels, 1)
-        targetValues(labels(n) + 1, n) = 1;
+        targetValues(labels(n) + 1, n) = 1;% initialising the targetValues
     end;
     
     % Choose form of MLP:
