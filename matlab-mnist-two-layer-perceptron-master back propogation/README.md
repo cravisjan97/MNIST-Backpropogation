@@ -3,7 +3,7 @@ Classification of handwritten digits is implemented through MultiLayer Perceptro
 
 List of Functions Used:
 1.applyStochasticSquaredErrorTwoLayerPerceptronMNIST.m - Train the two-layer perceptron using the MNIST dataset and evaluate its 									performance.
-2.dLogisticSigmoid.m - finds the derivative of sigmoid function
+2.\ndLogisticSigmoid.m - finds the derivative of sigmoid function
 3.loadMNISTImages.m - loads the MNIST Images from a given filename
 4.loadMNISTLabels.m - loads the MNIST Labels from a given filename
 5.saveMNISTImages.m - saves the MNIST images to a folder
